@@ -1,0 +1,35 @@
+input{
+	outline: none;
+	height: 20px;
+	width: 150px;
+}
+span{
+	font-size: 17px;
+	font-weight: 600;
+}
+textarea{
+	outline: none;
+}
+div{
+	margin: 20px 0;
+}
+#container{
+	
+}
+#name span{
+	padding-left: 15px;
+	padding-right: 8px;
+}
+#grade span{
+	padding-left: 15px;
+	padding-right: 20px;
+}
+#email span{
+	padding-left: 15px;
+	padding-right: 20px;
+}
+#introduction {
+	height: 200px;
+	width: 400px;
+	vertical-align: middle;
+}

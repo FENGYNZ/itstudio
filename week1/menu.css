@@ -1,0 +1,57 @@
+.container{
+	width: 1200px;
+	height: 700px;
+	border-right: 0.5px solid #d9dde3;
+}
+
+.menu{
+	width: 5%;
+	height: 100%;
+	background-color: #1d2531;
+	position: relative;
+	float: left;
+}
+.menu_icon img{
+	position: absolute;top:12px;left: 10px;
+}
+.icon{
+	position:relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin:5px 0 5px 9px;
+	float: left;
+}
+.icon_blue{
+	background-color: #2a9ff6;
+	cursor: pointer;
+}
+.icon_purple{
+	background-color: #937de4;
+	cursor: pointer;
+}
+.icon_red{
+	background-color: #d33013;
+	cursor: pointer;
+}
+.icon_bottom{
+	position: absolute; left: 50%;top: 95%;
+	margin-left: -40%;
+	cursor: pointer;
+}
+.bottom_icon{
+	margin-left:10px;
+	float: left;
+	cursor: pointer;
+}
+.icon_add{
+	width: 40px;
+	height:40px;
+	border-radius: 50%;
+	border:2px solid #2d3848;
+	outline: 10px solid #2d3848;
+	outline-offset: -31px;
+	margin:5px 0 5px 7px;
+	float: left;
+	cursor: pointer;
+}

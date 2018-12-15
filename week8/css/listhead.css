@@ -1,0 +1,163 @@
+@charset "UTF-8";
+.head {
+  width: 100%;
+  position: relative;
+}
+
+.head_left {
+  width: 66.5%;
+  float: left;
+  background: url(../image2/图层33.png);
+  position: relative;
+}
+
+.head_left #blank {
+  float: left;
+  display: block;
+}
+
+.head_left .logo {
+  float: left;
+  position: absolute;
+  z-index: 3;
+  margin: 9px 0 0 91px;
+}
+
+.head_left nav {
+  margin: 28px auto 0 360px;
+  float: right;
+  position: absolute;
+  z-index: 3;
+}
+
+.head_left nav span {
+  font-size: 30px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.head_left nav span:hover {
+  border-bottom: 3px solid #d71530;
+  display: block;
+}
+
+.head_left nav li {
+  margin-left: 134px;
+  float: left;
+}
+
+.head_left .headcontent {
+  position: absolute;
+  z-index: 3;
+  color: #ffffff;
+  width: 460px;
+  height: 511px;
+  top: 50%;
+  left: 50%;
+  margin: -255.5px -230px;
+  text-align: center;
+}
+
+.head_left .headcontent h2 {
+  font-size: 110px;
+  padding-bottom: 102px;
+}
+
+.head_left .headcontent h3 {
+  font-size: 48px;
+  padding-bottom: 79px;
+}
+
+.head_left .headcontent h5 {
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+.head_right {
+  width: 33.5%;
+  float: left;
+}
+
+.head_right .navigate {
+  margin-top: 66px;
+}
+
+.head_right .navigate li {
+  float: left;
+}
+
+.head_right .navigate ul:first-child {
+  margin-left: 0;
+}
+
+.head_right .navigate ul span {
+  font-size: 36px;
+  color: #050505;
+  margin-left: 65px;
+  display: block;
+}
+
+.head_right .navigate ul span:hover {
+  background-color: #ea4a3d;
+  border-radius: 13px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.head_title {
+  width: 100%;
+  text-align: center;
+}
+
+.head_title h2 {
+  font-size: 60px;
+  color: #050505;
+  padding: 41px 0 0 0;
+}
+
+.showContainer {
+  width: 580px;
+  height: 910px;
+  overflow: hidden;
+  position: relative;
+  margin: 8px auto 0 auto;
+  text-align: center;
+}
+
+.showContainer img {
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.showContainer img:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.showContainer .photoContainer {
+  position: absolute;
+  top: -1020px;
+  left: -5px;
+}
+
+.bottom-triangle {
+  width: inherit;
+  position: absolute;
+  top: 93.5%;
+  height: 60px;
+}
+
+.bottom-triangle:hover {
+  background: url("../image2/图层10.png");
+  cursor: pointer;
+}
+
+.bottom-triangle img {
+  width: 32px;
+  height: 18px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: block;
+}

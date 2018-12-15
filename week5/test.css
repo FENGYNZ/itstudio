@@ -1,0 +1,39 @@
+ul{
+	margin:0;
+	padding: 0;
+}
+li{
+	margin:10px 0 0 0;
+	padding:10px 0 0 0;
+	list-style-type: none;
+	word-wrap: break-word;
+	cursor: pointer;
+}
+#delet{
+	padding: 0 0 0 0;
+	margin: 0;
+	height: 20px;
+	width: 20px;
+	float: right;
+	background: white;
+	border-radius: 100%;
+	outline: 10px solid black;
+	outline-offset: -19px;
+	cursor: pointer;
+	transform: rotate(45deg);
+}
+
+#container{
+	width:380px;
+}
+#input{
+	outline: none;
+	width: 300px;
+}
+#add{
+	cursor: pointer;
+	outline: none;
+}
+.line{
+	text-decoration:line-through;
+}

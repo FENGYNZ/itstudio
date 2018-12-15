@@ -1,0 +1,177 @@
+.container{
+	width: 100%;
+}
+.menu{
+	width: 20px;
+	height: 0;
+	color: black;
+	box-shadow: 8px 8px 0 1px #ffffff,8px 0 0 1px #ffffff;
+	position: relative;
+	top: 15px;
+	float:left;
+	display: none;
+	cursor: pointer;
+}
+.menu:hover{
+	opacity: 0.9;
+}
+.hidding{
+	padding-right: 20px;
+	float: right;
+	display: none;
+}
+.head{
+	width: 100%;
+	height: 700px;
+	background: url(images/hero-banner-homepage.image.large_2x.jpg)center;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: cover;/*ie9以下 不兼容 需要声明 见收藏*/
+}
+.navigate{
+	width: auto;
+	margin:  0 -10px;
+	height: 44px;
+	text-align: center;
+	display: inline-block;
+}
+.head_content{
+	width: 100%;
+	background-color: #323232;
+	opacity: 0.95;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}
+.apple_variety{
+	font-size: 14px;
+	font-weight: lighter;
+	color: #ffffff;
+	padding: 0 40px;
+	display: inline-block;
+}
+.apple_variety a{
+	color: #ffffff;
+	line-height: 44px;  
+}
+
+.apple_variety img{
+	vertical-align: middle;
+	line-height: 44px;
+}
+
+.apple_variety a:hover{
+	opacity: 0.65;
+	text-decoration: none;/*去掉下划线*/
+}
+.apple_variety img:hover{
+	fill: #8f8f8e;
+	text-decoration: none;/*去掉下划线*/
+}
+.apple_variety span{
+	font-size: 12px;
+	opacity: 0.65;
+}
+.navigate .apple_variety:first-child{
+	padding-left: 10px;
+	/* padding-right: 40px; */
+}
+.navigate .apple_variety:last-child{
+	/* padding-left: 40px; */
+	padding-right: 10px;
+}
+.head_support{
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+}
+.support_container{
+	margin: 0 auto;
+	min-width: 950px;
+	padding: 0 20px;
+	border-bottom: 1px solid #d5d5d5;
+	display: inline-block;
+}
+
+.support_title{
+	font-size: 20px;
+	font-weight: 540;
+	color: #333;
+	padding: 10px 0 10px 0;
+	float: left;
+}
+
+.otherhref{
+	float: right;
+}
+.otherhref a:link{
+	font-size: 12px;
+	line-height: 60px;
+	padding-left: 20px;
+	color: #333;
+}
+.otherhref a:hover{
+	font-size: 12px;
+	color:#0086d9;
+	text-decoration: none;/*去掉下划线*/
+}
+.head_title{
+	width: 50%;
+	margin: 50px 25% 30px;
+	text-align:center;
+	display: inline-block;
+}
+.head_title h1{
+	font-size: 43px;
+	font-weight: 540;
+	color: #333;
+}
+.head_title p{
+	font-size: 20px;
+	font-weight: lighter;
+	padding-top:1em;
+	color: #333333;
+}
+.head_input{
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+}
+.head_input input{
+	min-width: 400px;
+	height: 3.3rem;
+	font-size: 15px;
+	outline: none;/* 去掉默认边框*/
+	border:1px solid #dedede;
+	border-radius: 3px;
+	padding:0px 100px 0 60px ;
+	vertical-align: middle;
+	display: inline-block;
+}
+/* .head_input img{
+	
+	position: absolute;
+	top: 0px;
+	height: 0px;
+} */
+.search_button{ 
+	background-color: #ffffff;
+	background: url(images/search_icon_black.svg); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 25px;
+	opacity: 0.5;
+	font-size: 15px;
+	position: absolute;
+	box-shadow: none;
+	outline: none;
+	width: 40px;
+	height: 2.5rem;
+	left:0;
+	top: 0.5rem;
+	border: none;
+	vertical-align: middle;
+	cursor:pointer;
+	display: inline-block;
+ }

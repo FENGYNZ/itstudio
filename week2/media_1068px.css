@@ -1,0 +1,187 @@
+	.cutline{
+		width: 90%;
+	}
+.navigate{
+	max-width:768px;
+	line-height: 44px;
+}
+.apple_variety{
+	font-size: 13px;
+	padding: 0 27px;
+}
+.navigate .apple_variety:first-child{
+	padding-left: 15px;
+	/* padding-right: 30px; */
+}
+.navigate .apple_variety:last-child{
+	/* padding-left: 30px; */
+	padding-right: 15px;
+}
+
+.support_container{
+	min-width: 760px;
+	padding: 0;
+}
+	.support_title{
+		font-size: 20px;
+		font-weight: 540;
+	}
+	.part-1{
+		margin: 30px 0;
+	}
+	.icon-6{
+		max-width: 880px;
+		text-align: center;
+	}
+	.icon-6_container{
+		max-width: 768px;
+		padding-right: -100px;
+	}
+	.icon-6 .apple_icon:nth-child(1) {
+		padding-left: 0px;
+	}
+	.icon-6 .apple_icon:nth-child(4) {
+		padding-left: 0px;
+	}
+	.icon-6 .apple_icon:nth-child(3){
+		padding-right: 0;
+	}
+	.icon-6 .apple_icon:nth-child(6){
+		padding-right: 0;
+	}
+	.apple_icon{
+		padding: 30px 100px;
+	}
+	.apple_icon img{
+		width: 80px;
+	}
+	.apple_icon a{
+		font-size: 14px;
+	}
+	.head_title h1{
+		font-size:35px;
+		font-weight: 500;
+	}
+	.head_title p{
+		font-size: 18px;
+	}
+	.head_input {
+		margin: 0 auto;
+	}
+	.head_input input{
+		min-width: 400px;
+		margin:0 auto;
+	}
+	.part-3_content{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.part-3_title h2{
+		font-size: 30px;
+		text-align: center;
+	}
+	.part-3_title p{
+		text-align: center;
+	}
+	.part-3_link a{
+		font-size: 18px;
+	}
+	.part-3_image{
+		display: block;
+		width: 100%;
+	}
+	.part-4_top{
+		max-width: 769px;
+	}
+	.content1{
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+.part-4_top .content1:first-child{
+	padding-right: 0;
+}
+.part-4_top .content1:last-child{
+	padding: 0;
+}
+	.part4-img{
+		width: 228px;
+		height: 140px;
+	}
+.part4_link{
+	width: 50%;
+	padding-left: 30px;
+	display: inline-block;
+	font-size: 16px;
+	}
+	.bottom4_container{
+		max-width: 769px;
+	}
+	.part4_link h2{
+	font-size: 23px;
+}
+#otherhref4{
+	font-size: 15px;
+}
+.part-4_bottom{
+	max-width: 768px;
+}
+.bottom4_container{
+	max-width: 768px;
+}
+.bottom4_container h4{
+	font-size: 20px;
+}
+.part6_content{
+	max-width: 600px;
+	position: absolute;
+	left: 15%;
+	top: 40%;
+}
+.part6_content h2 {
+	width: 60%;
+	font-size: 34px;
+}
+.part6_content p{
+	width: 60%;
+}
+.background6 {
+	width: 100%;
+	max-height: 600px;
+}
+.content_6 h2{
+	font-size: 30px;
+}
+.part7_container{
+	width: 90%;
+	text-align: left;
+}
+.part7_content{
+	width: 60%;
+}
+.part7_content h4{
+	font-size: 28px;
+}
+.part7_image{
+	display: none;
+}
+.part-8_content{
+	max-width: 768px;
+	margin: 0 auto;
+	text-align: center;
+}
+.part-8_content h4{
+	font-size: 22px;
+}
+.part-8_content h2{
+	font-size: 26px;
+	font-weight: normal;
+}
+.part-10_container h4{
+	font-size: 20px;
+	font-weight: normal;
+}
+.footer_container{
+	width: 692px;
+}

@@ -1,0 +1,67 @@
+#right{
+	transform: rotate(180deg); /*顺时针旋转180°*/
+}
+.container{
+	width: 600px;
+	height: 400px;
+	background: black;
+	margin:20px auto;
+	overflow: hidden;
+	position: relative;
+}
+.photoContainer{
+	position: absolute;
+	left: -600px;
+	display: inline-block;
+	white-space: nowrap;
+}
+.photoContainer img{
+	width: 600px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.dots{
+	width: inherit;/*获取父元素的相应值*/
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+}
+.dot{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: white;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.redDot{
+	background: red;
+}
+.left-triangle{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top:-27.2px;
+	margin-left:-37px;
+	transition: margin-left 1s;
+	cursor: pointer;
+}
+.right-triangle{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top:-27.2px;
+	margin-right:-37px;
+	transition: margin-right 1s;
+	cursor: pointer;
+}
+/*暂时css确定鼠标移动到 出现左右小图标*/
+.container:hover .left-triangle{
+	margin-left:0;
+}
+.container:hover .right-triangle{
+	margin-right:0;
+}

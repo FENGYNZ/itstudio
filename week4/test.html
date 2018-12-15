@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-en">
+<head>
+	<meta charset="UTF-8">
+	<title>验证</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<div id="container">
+		<form name="myForm" action="#" >
+			<div id ="name">
+				<span>姓名：</span>
+				<input type="text" id ="Name" placeholder="姓名" >
+			</div>
+			<div id="grade">
+				<span>年级:</span>
+				<input type="text" id="Grade" placeholder="2010-2014">
+			</div>
+			<div id="phoneNumber">
+				<span>手机号码:</span>
+				<input type="text" id="PhoneNumber" placeholder="手机号码" >
+			</div>
+			<div id="email">
+				<span>邮箱:</span>
+				<input type="text" id="emailAddress" placeholder="邮箱">
+			</div>
+			<div id="myself">
+				<span>自我介绍:</span>
+				<textarea id="introduction" placeholder="自我介绍100字以内" maxlength="100"></textarea>
+			</div>
+			<input type="submit" value="注册" onclick="verify()" > 
+		</form>
+	</div>
+</body>
+<script type="text/javascript" src="verify.js"></script>
+</html>

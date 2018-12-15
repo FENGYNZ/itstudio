@@ -1,0 +1,359 @@
+.body{
+	width: 100%;
+}
+.part-1{
+	width: 100%;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	text-align: center;
+	background-color: #ffffff;
+}
+.icon-6{
+	margin:0 auto;
+	background: #ffffff;
+	vertical-align: middle;
+	display: inline-block;
+	
+}
+.icon-6 .apple_icon:first-child{
+	padding-left: 0;
+}
+.icon-6 .apple_icon:last-child{
+	padding-right:0;
+}
+
+.apple_icon{
+	padding-top: 50px;
+	text-align: center;
+	padding: 0 45px;
+	display: inline-block;
+}
+.apple_icon a {
+	color: #333;
+	font-size: 17px;
+	display: inline-block;
+}
+.apple_icon img{
+	width: 95px;
+	height: auto;
+	vertical-align: center;
+	padding-bottom: 16px;
+}
+.apple_icon span{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.part-2{
+	width: 100%;
+	border-top: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+	background-color: #ffffff;
+}
+.part-2_content{
+	width: 20%;
+	margin:0 40%;
+	padding: 32px 0;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+}
+.part-2_content a{
+	vertical-align: middle;
+	text-align: center;
+	font-size: 17px;
+	color: #0070c9;
+	display: inline-block;
+}
+.part-2_content a:hover{
+	text-decoration: none;
+}
+
+.part-3{
+	width: 100%;
+	background-color: #ffffff;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	text-align: center;
+	border-bottom: 1px solid #d5d5d5;
+}
+.part-3_container{
+	max-width:1068px;
+	margin:0 auto;
+	text-align: center;
+	display: inline-block;
+}
+.part-3_image{
+	vertical-align: middle;
+	float: left;
+}
+.part-3_content{
+	width: 50%;
+	vertical-align: middle;
+	text-align: left;
+	float: right;
+}
+.part-3_title h2{
+	font-size: 47px;
+	text-align: left;
+	color: #333333;
+}
+.part-3_title p{
+	font-size: 17px;
+	font-weight: lighter;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	line-height: 2em;
+	text-align: left;
+	word-wrap: break-word;
+}
+.part-3_link{
+	text-align: left;
+	display: inline-block;
+}
+.part-3_link a{
+	font-size: 22px;
+	font-weight: lighter;
+	color: #0070c9;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+.part-3_link img{
+	fill: #0070c9;
+}
+
+.part-4{
+	width: 100%;
+	background-color: #ffffff;
+	text-align: center;
+}
+.part-4_top{
+	max-width: 1068px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align:middle;
+	display: inline-block;
+}
+.part-4_bottom{
+	max-width: 1068px;
+	padding-bottom: 50px;
+	text-align: center;
+	display: inline-block;
+}
+.bottom4_container{
+	max-width:1068px;
+}
+.part-4_top .content1:first-child{
+	padding-right: 0;
+}
+.part-4_top .content1:last-child{
+	padding-left:4%;
+}
+.content1{
+	width: 45%;
+	text-align: center;
+	vertical-align: middle;
+/*	word-break: break-all; 自动根据宽度换行
+	white-space: normal;*/
+	display: inline-block;
+}
+
+.part4_link{
+	width: 100%;
+	font-size: 17px;
+	font-weight: lighter;
+	padding-top: 2em;
+	padding-left: 1em;
+	color: #333333;
+	text-align: left;
+}
+.part4-img{
+	height: 152px;
+}
+.part4_link h2{
+	line-height: 1.25;
+	font-size: 32px;
+	font-weight: 500px;
+	margin:0.5em 0;
+	color: #333333;
+}
+
+.part-4 a{
+	font-size: 17px;
+	text-align: left;
+	color: #0070c9;
+	display: inline-block;
+}
+#otherhref4{
+	font-size: 17px;
+	text-align: left;
+	padding-top: 10px;
+	color: #0070c9;
+	display: inline-block;
+}
+#otherhref4 img{
+	position: relative;
+	left: 0.3em;
+	width: 0.3em;
+	display: inline-block;
+}
+.part-4_bottom{
+	max-width: 1068px;
+	text-align: center;
+	display: inline-block;
+}
+.bottom4_container{
+	max-width: 1068px;
+	text-align: center;
+}
+.bottom4_container p{
+	font-size: 17px;
+	font-weight: lighter;
+	word-wrap: break-word;
+	white-space: normal;
+	padding-top: 1.3em;
+	display: inline-block;
+}
+.bottom4_container h4{
+	padding-top: 1em;
+	font-size: 24px;
+	font-weight: 500px;
+	color: #333333;
+}
+.cutline{
+	width: 60%;
+	margin:0 auto;
+	height: 1px;
+	background-color: #d5d5d5;
+	display: inline-block;
+}
+
+.part-5{
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #d5d5d5;
+	padding-bottom: 50px;
+	display: inline-block;
+}
+
+.part-6{
+	width: 100%;
+	text-align:center;
+}
+.part6_container{
+	width: 100%;
+	background-image: url(images/today-at-apple-workshop-banner.image.large_2x.jpg);
+	background-size: cover;
+	display: inline-block;
+}
+.background6{
+	position: relative;
+}
+.content_6{
+	margin: 100px 0;
+	max-width:786px;
+	margin-left: 20%;
+	text-align: left;
+}
+.forhidding6{
+	width: 100%;
+	text-align: left;
+	display: none;
+}
+.forhidding6 h2{
+	color: #333333;
+	font-size: 28px;
+}
+.forhidding6 p{
+	font-size: 17px;
+}
+.content_6 h2{
+	width: 55%;
+	line-height: 47px;
+	font-size: 40px;
+	color: #ffffff;
+
+}
+.content_6  p{
+	width:48%;
+	padding:1em 0 0 0;
+	font-size: 17px;
+	color: #ffffff;
+
+}
+.part-7{
+	width: 100%;
+	margin-top: 34px;
+	text-align: center;
+}
+.part7_container{
+	width: 100%;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+.part7_content{
+	width: 40%;
+	padding-left: 10%;
+	text-align: left;
+	display: inline-block;
+}
+.part7_image{
+	width: 30%;
+	display: inline-block;
+}
+.part7_content h4{
+	font-size: 32px;
+	color: #333333;
+}
+.part7_content p{
+	padding-top: 0.8em;
+	font-size: 17px;
+}
+
+.part-8{
+	width: 100%;
+	text-align: center;
+}
+.part-8_content{
+	padding: 50px 0;
+	text-align: center;
+}
+.part-8_content h2{
+	font-size: 40px;
+	font-weight: bolder;
+	color: #333333;
+}
+.part-9{
+	width: 100%;
+	text-align: center;
+}
+.part-8_content h4{
+	font-size: 32px;
+	color: #333333;
+}
+.part-10{
+	width: 100%;
+	text-align: center;
+}
+.part-10_container{
+	padding:50px 0;
+	text-align: center;
+}
+.part-10 li{
+	margin:22px 0;
+}
+.part-10 h4{
+	font-size:24px;
+	font-weight: bolder;
+	color: #333333;
+	font-weight: 500px; 
+}
+.part-10 a{
+	font-size: 17px;
+	color: #0070c9;
+}
+.body a:active{
+	outline: 2px solid #A7BDC7;
+}

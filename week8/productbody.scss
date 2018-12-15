@@ -1,0 +1,123 @@
+.body{
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.container1{
+    width: 100%;
+    .introduction{
+        width: 45%;
+        vertical-align: top;
+        display: inline-block;
+    }
+    table{
+        margin-top: 56px;
+        margin-left: 132px;
+        tr{
+            border-bottom: 2px solid #b3b3b3;
+        }
+        td{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 120px;
+            font-size: 22px;
+            color: #030303;
+        }
+    }
+
+}
+.title{
+    margin-top: 132px;
+    margin-left: 132px;
+    h5{
+    font-size: 36px;
+    color: #030303;
+    }
+    .cutline{
+        width: 1660px;
+        height: 2px;
+        background-color: #030303;
+    }
+}
+.showphoto{
+    margin-top: 45px;
+    display: inline-block;
+}
+
+.showContainer1{
+    width: 1471px;
+    height: 623px;
+    margin: 100px auto;
+    position: relative;
+    img{
+        margin: 5px 5px;
+        display: block;
+        float: left;
+        &:hover{
+            box-shadow: 0px 2px 2px 0px 
+        rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        }
+    }
+}
+
+.lefttriangle{
+    width:98px;
+    height: 623px;
+    float: left;
+    position: absolute;
+    top:0;
+    right: -35px;
+    text-align: center;
+    img{
+        position: absolute;
+        top:50%;
+        margin-top: -24px;
+        display:inline-block;
+    }
+    &:hover{
+        background-image: url("../image3/图层26.png");
+        opacity: 0.302;
+        cursor: pointer;
+        }
+    &::after,img{
+        vertical-align: middle;
+        display: inline-block;
+    }
+    &::after{
+        content:"";
+        height: 100%;
+    }
+}
+
+.part-3{
+    width: 100%;
+    margin-bottom: 100px;
+    .container3{
+        width: 80%;
+        margin: 0 auto;
+    }
+   ul{
+       display: inline-block;
+       font-size: 30px;
+       color: #030303;
+        opacity: 0.9;
+        margin-left: 179px;
+        vertical-align: bottom;
+        li{
+            margin: 5px;
+        }
+        &::after{
+            vertical-align: middle;
+            display: inline-block
+        }
+        &::after{
+            content:"";
+            height: 140px;
+        }
+   }
+}
+.forproduct{
+    background-color:#ffffff;
+}

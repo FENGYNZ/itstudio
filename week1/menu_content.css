@@ -1,0 +1,63 @@
+.menu_content{
+	width: 15%;
+	height: 100%;
+	background-color: #222c3c;
+	float: left;
+}
+.content{
+	margin: 10px 25px 0 25px;
+}
+.content_title{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.content_title img{
+	position: absolute;top:-1px;left: 115px;
+	cursor: pointer;
+}
+.content_list{
+	line-height: 25px;
+	font-size: 12px;
+	color:#b7c0cd;
+}
+.content_list li{
+	cursor: pointer;
+}
+.content_list img{
+	width: 10px;
+	margin-right: 10px;
+}
+.add_border{
+	margin-top: 10px;
+	border-top: 1px solid #585d68;
+}
+.content_bottom{
+	width: 90%;
+	margin-top: 150px;
+	margin-left: 20px;
+	float: left;
+}
+.goal{
+	width: 100%;
+	float: left;
+}
+.goal_1{
+	float: left;
+}
+.goal_2{
+	margin-left: 25px;
+	float: left;
+}
+.progress{
+	width: 88%;
+	height: 2px;
+	margin-top: 5px;
+	background-color: #585d68;
+	float: left;
+}
+.purple{
+	width: 35%;
+	height: 2px;
+	background-color: #927de4;
+}

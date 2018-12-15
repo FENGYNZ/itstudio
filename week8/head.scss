@@ -1,0 +1,239 @@
+@mixin boxsize($width,$height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin marginSet($top, $right,$bottom, $left) {
+    margin:$top $right $bottom $left;
+}
+
+.head{
+    width: 100%;
+    background: url(../image/timgN9QNR76O.jpg);//背景
+    position: relative;
+}
+.backgrand{
+    width: inherit;
+    img{
+        width:inherit;
+        height: inherit;
+        display: block;
+    }
+    float: left;
+}
+.headcontent{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.reaction{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    background-color: #fbfcfc;
+    box-shadow: 0px -2px 2px 0px 
+		rgba(0, 0, 0, 0.3), 
+		inset 0px 2px 2px 0px 
+        rgba(0, 0, 0, 0.35);
+    margin-top:100px;
+    .reaction_menu{
+        margin: 45px 0 0px 350px ;
+        font-size: 28px;
+        float: left;
+        ul{
+            border-left: 2px solid;
+            border-color: #030303;
+            opacity: 0.8;
+        }
+        li{
+            padding: 5px 30px;
+            color: #030303;
+            opacity: 0.8;
+            &:hover{
+                //文字阴影
+                text-shadow: 0px 2px 1.6px rgba(0, 0, 0, 0.3);
+            }
+            cursor: pointer;
+        }
+    }
+    .imgmessage{
+        float: right;
+        .img1{
+            margin: 21px 100px 0px 0;
+            .forreaction{
+                width: 136px;
+                height: 40px;
+                background-color: #e60012;
+                border-radius: 13px;
+                position: relative;
+                top: -30px;
+                left:-180px;
+            }
+        }
+        .img2{
+            margin:10px 100px 0px 0;
+            .forreaction{
+                width: 136px;
+                height: 40px;
+                background-color: #e60012;
+                border-radius: 13px;
+                position: relative;
+                top: -80px;
+                left:-200px;
+            }
+        }
+    }
+    //伪元素实现三角形
+    &::before{
+        content: '';
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background-color: inherit;
+        top:-15px;
+        transform: rotate(45deg);
+        border:2px solid #b0b3b4;
+        left:25.5%;
+        border-style: solid none none solid;
+        
+    }
+    display: none;
+}
+
+.navigate{
+    font-size: 24px;
+    a{
+        padding: 22px;
+        &:hover{
+            //文字阴影
+            text-shadow: 0px 2px 1.6px rgba(0, 0, 0, 0.3);
+        }
+        color: #1a1b1b;
+    }
+    position: absolute;
+    z-index: 4;
+    @include marginSet(32px,0 ,0 ,256px);
+}
+.content_right{
+    width: 228px;
+    text-align: center;
+    @include marginSet(34px,40px ,0px ,0px );
+    float:right;
+}
+.content_left{
+    width: 517px;
+    @include marginSet(268px,0px ,0px ,247px );
+    .content_logo{
+        text-align: center;
+        width: 517px;
+        img{
+            display: inline-block;
+        }
+        #logo_left{
+            @include marginSet(80px,0 ,0 ,0 )
+        }
+        #slogan{
+            @include marginSet(66px,0px,76px,0px )
+
+        }
+    }
+    background-color:white;
+    opacity: 0.85;
+    border-radius: 15px;
+    float: left;
+}
+
+.input{
+    position: relative;
+    @include marginSet(34px,0 ,0 ,0 );
+   input{
+       width: 162px;
+       height: 49px;
+       outline: none;
+       border: white;
+       border-radius: 10px;
+       font-size: 23px;
+       color: #686868;
+       padding-left: 85px;
+   }
+   img{
+       position: absolute;
+       top: 10px;
+       left: 40px;
+       cursor: pointer;
+   }
+}
+
+.myself{
+    @include marginSet(41px,0 ,0 ,0 );
+    vertical-align:middle;
+    display: inline-block;
+    font-size: 29px;
+    cursor: pointer;
+    &:hover{
+        text-shadow: 0px 2px 1.6px rgba(0, 0, 0, 0.3);
+    }
+    img{
+        display: inline-block;
+    }
+    span{
+        @include marginSet(-25px,0 ,0 ,15px);
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+
+.redbutton{
+    cursor: pointer;
+    background-color: #d02427;
+    @include boxsize(170px,59px );
+    @include marginSet(44px,0 ,44px ,0 );
+    color:#fafbfb;
+    font-size: 21px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    &::after,img{
+        padding-left: 5px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    &::after,span{
+        vertical-align: middle;
+        display: inline-block
+    }
+    &::after{
+        content:"";
+        height: 100%;
+    }
+   
+}
+#moremessage{
+    @extend .redbutton;
+    @include marginSet(20px,0 ,0 ,0 );
+}
+
+.article{
+    #headlist{
+        @include marginSet(0,0 ,0 ,30px );
+        font-size: 24px;
+        color: #030303;
+        text-align: left;
+        h4{
+            font-size: 28px;
+        }
+        span{
+            display: inline-block;
+        }
+        li{
+            cursor: pointer;
+            &:hover{
+                text-shadow: 0px 2px 1.6px rgba(0, 0, 0, 0.3);
+            }
+            margin-bottom: 19px;
+        }
+        #title{
+            @include marginSet(0,0 ,32px ,0 );
+        }
+    }
+}
